@@ -15,7 +15,7 @@ else:
 print()
 
 
-e=6
+e=12
 if e==12 or 1<=e<=2:
     print('Зима')
 elif e in range(3,6):

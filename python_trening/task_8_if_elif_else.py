@@ -1,4 +1,4 @@
-num_float = 3.4
+num_float = 0
 
 if num_float > 0:
     print('Положительное число')
@@ -12,9 +12,11 @@ else:
 
 print()
 
-permit_print=True
 
-num=2
+
+permit_print = True
+
+num = 2
 
 if num>0 and permit_print:
     print('num- положительное число')

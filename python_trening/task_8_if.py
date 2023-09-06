@@ -5,7 +5,7 @@ else:
     print('Число отрицательное')
 
 
-str_1='test'
+str_1='test1'
 str_2='test'
 if str_1 in str_2:
     print('ДА')
