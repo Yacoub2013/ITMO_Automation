@@ -7,8 +7,8 @@ class B(A):
         super().__init__()
         self.y = self.x +5
 
-
+b=B()
 print(B().y)
 
-b=B()
+
 print(b.y)
