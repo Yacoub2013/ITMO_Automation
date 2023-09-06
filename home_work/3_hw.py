@@ -30,13 +30,9 @@ else:
 print()
 
 r=12
-f=32
+f=11
 j=14
-if  r>10:
-    print('YES')
-elif f>10:
-    print('YES')
-elif j>10:
+if  r>10 and f>10 and j>10:
     print('YES')
 else:
     print('NO')
