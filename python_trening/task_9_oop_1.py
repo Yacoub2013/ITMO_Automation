@@ -1,14 +1,16 @@
-class Input:
-    def __init__(self, text, loc):
-        self.loc = loc
-        self.text = text
+from task_9_checks import *
+class Input(Checks):
 
-search = Input('текс_1','локатор_1')
+    def __init__(self, text, loc):
+        self.text = text
+        self.loc = loc
+search = Input('текст_1','Локатор _1')
 print(search.text)
 print(search.loc)
+
 print()
 
-class Button:
+class Button(Checks):
     def __init__(self, text, loc):
         self.text = text
         self.loc = loc
@@ -17,7 +19,7 @@ print(search_Button.text)
 print(search_Button.loc)
 print()
 
-class Title:
+class Title(Checks):
     def __init__(self, text, loc):
         self.text = text
         self.loc = loc
@@ -26,7 +28,7 @@ search_Title = Title('текст_3','локатор_3')
 print(search_Title.text)
 print(search_Title.loc)
 print()
-class Link:
+class Link(Checks):
     def __init__(self, text, loc):
         self.text = text
         self.loc = loc
