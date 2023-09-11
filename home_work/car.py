@@ -8,24 +8,13 @@ class Car:
         print('Автомобиль заведен!')
     def disable(self):
         print('Автомобиль заглушен!')
-    def year_of_issue(self):
-        print(self.year)
-    def type_1(self):
-        print(self.type)
-    def color_1(self):
-        print(self.color)
+    def year_of_issue(self,year_new):
+        self.year_new=year_new
 
-car_start=Car(color='синий автомобиль',type='сидан',year=2023)
-car_start.start()
+    def type_1(self,type_new):
+        self.type_new=type_new
 
-car_disable=Car(color='синий автомобиль',type='сидан',year=2023)
-car_disable.disable()
+    def color_1(self, color_new):
+        self.color_new=color_new
 
-car_year_of_issue=Car(color='синий автомобиль',type='сидан',year=2023)
-car_year_of_issue.year_of_issue()
 
-car_type=Car(color='синий автомобиль',type='сидан',year=2023)
-car_type.type_1()
-
-car_color=Car(color='синий автомобиль',type='сидан',year=2023)
-car_color.color_1()
